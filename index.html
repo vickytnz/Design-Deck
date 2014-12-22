@@ -1,0 +1,175 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Design Deck, Reloaded</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body id="body">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+ <div id="main" role="main">
+  <header>
+<h1>Design Deck</h1>
+  </header>
+  
+  
+  <p>Interactive Remix of <a href="http://www.markblythe.me.uk/MarkBlythe/Design_Deck.html">Mark Blythe's Design Deck</a>. Inspired by <a href="www.thenextplays.com">Next Plays</a>, &amp; <a href="http://locusresearch.com/content/building-blocks-sustainable-design">Sustainable Design Building Blocks.</a></p>
+  <p>This is a card game where players come up with ideas which combine technologies, users, motives and problems. For new cards deal again.</p>
+   
+  <p><a id="deal" class="function-button" href="#">Deal</a><a id="show-all" class="function-button" href="#">Show All</a> <a href="#" id="full-button">Fullscreen</a></p>
+<ul id="technologies">
+<li class="odd list-1"><span>Technologies</span></li>
+<li class="even list-2"><span>GPS</span></li>
+<li class="odd list-3"><span>Social Media</span></li>
+<li class="even list-4"><span>Online Libraries</span></li>
+<li class="odd list-5"><span>Transportation</span></li>
+<li class="even list-6"><span>Smart Clothing</span></li>
+<li class="odd list-7"><span>Surveillance Technology</span></li>
+<li class="even list-8"><span>Physiological Sensors</span></li>
+<li class="odd list-9"><span>Biometrics</span></li>
+<li class="even list-10"><span>Robots</span></li>
+<li class="odd list-11"><span>Large Public Displays</span></li>
+<li class="even list-12"><span>Smart Environments</span></li>
+<li class="odd list-13"><span>Alternative Energy Sources</span></li>
+<li class="even list-14"><span>Apps</span></li>
+</ul>
+<ul id="users">
+<li class="odd list-1"><span>Users</span></li>
+<li class="even list-2"><span>Gordon:<br/> Gas Guzzler</span></li>
+<li class="odd list-3"><span>Bill:<br/> Cyber Criminal</span></li>
+<li class="even list-4"><span>Martina:<br/> Conspicuous Consumer</span></li>
+<li class="odd list-5"><span>Thelonious:<br/> Fat Cats</span></li>
+<li class="even list-6"><span>Peg:<br/> Differently Abled</span></li>
+<li class="odd list-7"><span>Owen:<br/> Traditional Criminal</span></li>
+<li class="even list-8"><span>Nigel:<br/> Middle Englander</span></li>
+<li class="odd list-9"><span>Royston &amp; Parvir:<br/> Multicultural Society</span></li>
+<li class="even list-10"><span>Seymour:<br/> Obese</span></li>
+<li class="odd list-11"><span>Consuela:<br/> Elderly</span></li>
+<li class="even list-12"><span>Seb:<br/> Teenagers</span></li>
+<li class="odd list-13"><span>Mabel:<br/> Socially Excluded</span></li>
+<li class="even list-14"><span>Simon:<br/> Alcohol Dependent</span></li>
+</ul>
+<ul id="motives">
+<li class="odd list-1"><span>Motives</span></li>
+<li class="even list-2"><span>Envy</span></li>
+<li class="odd list-3"><span>Fun</span></li>
+<li class="even list-4"><span>Hope</span></li>
+<li class="odd list-5"><span>Lust</span></li>
+<li class="even list-6"><span>Wrath</span></li>
+<li class="odd list-7"><span>Faith</span></li>
+<li class="even list-8"><span>Courage</span></li>
+<li class="odd list-9"><span>Justice</span></li>
+<li class="even list-10"><span>Love</span></li>
+<li class="odd list-11"><span>Art</span></li>
+<li class="even list-12"><span>Pride</span></li>
+<li class="odd list-13"><span>Sloth</span></li>
+<li class="even list-14"><span>Greed</span></li>
+</ul>
+
+<ul id="issues">
+<li class="odd list-1"><span>Problems</span></li>
+<li class="even list-2"><span>Political Apathy</span><p>More votes were cast for Taylor Hicks, a contestant in the 2006 American Idol contest, than for any president in any election in US history.</p></li>
+<li class="odd list-3"><span>Health and Wellbeing</span><p>By the age of 45 largely preventable diseases like heart disease, cancer and diabetes cause the vast majority of deaths in both rich and poor nations. Giving up smoking between the ages of 60 and 75 reduces the risk of premature death by 50%. </p></li>
+<li class="even list-4"><span>Income Inequality</span><p>The greater the gap between rich and poor in a country, the higher its rates of mental illness, infant mortality, adult obesity, teen pregnancy, homicide and imprisonment.</p></li>
+<li class="odd list-5"><span>Privacy</span><p>Website history can be traced to your computer's IP address, so data "may be shared" with governments, litigants or divorcing spouses.<br/>Your search information is logged and stored indefinitely and recent changes to Google's privacy policy lets it merge data between Youtube, Gmail and Google+.</p></li>
+<li class="even list-6"><span>Terrorism</span><p>Traffic accidents kill around 2,500 people in the UK every year. Since the 'war on terror' began the largest number of victims in a UK mainland terrorist attack is 52.<br/>Yet the official threat level has never been less than substantial and we fear terrorists more than cars.</p></li>
+<li class="odd list-7"><span>Fraud</span><p>Tax fraud costs the UK government at least &pound;15 billion a year, around 15 times as much as benefit fraud. <br/>Online scams like fraudulent dating profiles increase yearly: that girl may not be quite as perfect as she seems, or even a girl at all.</p></li>
+<li class="even list-8"><span>Surveillance Society</span><p>Britain has more surveillance camera monitoring streets, parts and government buildings than any other country. <br/>It is now routine for employers to monitor staff internet use and keep track of their whereabouts using GPS technology on their mobile phones.</p></li>
+<li class="odd list-9"><span>Economic Crisis</span><p>The UK spent &pound;38 billion on bailing out the banks, enough to pay for four London Olympics, 70 new hospitals or 1,520 new schools.</p></li>
+<li class="even list-10"><span>Self Image</span><p>A survey found that almost a third of women would trade at least a year of their lives to be their ideal body weight and shape.<br/>Eighty percent wanted to lose weight even though they were within the underweight or normal weight range.</p></li>
+<li class="odd list-11"><span>Stuff and Consumerism</span><p>Rioters in Britain took to the streets not to protest some policy or support a movement but to gain new sports shoes and flat screen TVs. They were the riots of 'disqualified consumers' (Zygmunt Bauman). <br/> Today, we are shopper and consumers before we are citizens.</p></li>
+<li class="even list-12"><span>Mental Health</span><p>Today one in six workers is suffering from stress, anxiety or depression. Look around your office, if you have half a dozen co-workers is's probably one of them, if it isn't you.</p></li>
+<li class="odd list-13"><span>Climate Change</span><p>The effects of climate change can already be observed in the UK and around the world. Extreme weather is predicted to become more common with catastrophic effects on human, animal and plant life within our children's lifetimes.</p></li>
+<li class="even list-14"><span>The Ageing</span><p>An eighty year old today can expect to live up to 91, but health spans do not necessarily keep up with life spans. As Eubie Blake remarked in his late nineties, "If I'd known I was going to live this long I would have taken better care of myself".</p></li>
+</ul>
+
+
+
+  <footer>
+<p>Coded by <br/> <a href="http://vickyteinaki.com">Vicky Teinaki</a></p>
+  </footer>
+  </div>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+   <script>
+   full = function(el){
+      if (el.webkitRequestFullScreen) {
+        el.webkitRequestFullScreen();
+      } else if(el.mozRequestFullScreen){
+        el.mozRequestFullScreen();
+      }
+  }
+document.getElementById('full-button').onclick = function(){
+    full(document.getElementById('body'))
+}
+   
+    $("a#deal").click(function () {
+      $("ul li").removeClass("deal no-deal").addClass("no-deal");
+      $("ul li:first-child").removeClass("deal no-deal clicked");
+      function myRandom(){
+	     return Math.round(Math.random() * 12) + 2;
+      }
+      $("ul").each(function (i) {
+      var myNumber = myRandom();
+      $("ul#" + this.id +" li.list-" + myNumber ).removeClass("no-deal").addClass("deal");
+    })
+    });
+        $("a#show-all").click(function () {
+
+      $("ul li").removeClass("deal no-deal clicked");
+    });
+    
+    $("ul li").click(function () {
+      $("ul li").removeClass("clicked");
+      //$(this).addClass("clicked");
+    });
+    
+</script>
+
+  <!-- end scripts -->
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
